@@ -1,11 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Workbench:SCAN@30&display=swap');
 
-* {
-    background-color: #ad1a17;
-    
-}
+
 body {
+    background-color: #ad1a17;
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
@@ -15,7 +13,6 @@ body {
 .titulo {
     display: flex;
     background-color: white;
-    line-height: 0.5rem;
     border-bottom-left-radius: 3%;
     border-bottom-right-radius: 3%;
     height: 12rem;
@@ -33,10 +30,8 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    line-height: 0rem;
     background-color: transparent;
     color: #ad1a17;
-    text-decoration: none !important;
 }
 .centro {
     display: flex;
@@ -64,7 +59,6 @@ body {
     padding-bottom: 2%;
 }
 .contactos {
-    line-height: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +69,7 @@ body {
     justify-content: center;
     background-color: white;
     width: 29%;
-    height: 4rem;
+    height: auto;
     border-radius: 10px; 
 }
 .contactos_boton:hover {
@@ -85,12 +79,12 @@ body {
     height: 1.5rem;
     width: 1rem;
     background-color: transparent;
-    padding-top: 1rem;
+    padding-top: 0.3rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 #contactos_boton_boton {
-    padding-top: 6%;
+    padding-top: 3%;
     border: 0;
     background-color: transparent;
     font-family: 'poppins', sans-serif;
@@ -108,8 +102,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 14rem;
+        height: 16rem;
+        line-height: 1.5rem;
     }
+
+   
     #logo {
         position: relative;
     }
@@ -117,7 +114,6 @@ body {
         padding-bottom: 1%;
     }
     .contactos {
-        line-height: 1rem;
         align-items: center;
     }
     #pin {
