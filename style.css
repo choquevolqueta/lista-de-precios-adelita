@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Workbench:SCAN@30&display=swap');
+
+* {
+    background-color: #ad1a17;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+.titulo {
+    display: flex;
+    background-color: white;
+    line-height: 0.5rem;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    height: 12rem;
+}
+#logo {
+    position:absolute;
+    height: 10rem;
+    width: 8rem;
+    padding: 1%;
+    background-color: transparent;
+}
+.texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 0rem;
+    background-color: transparent;
+    color: #ad1a17;
+    text-decoration: none !important;
+}
+.centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+.pizarra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    width: fit-content;
+}
+
+.pie {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.excepcion {
+    padding-bottom: 2%;
+}
+.contactos {
+    line-height: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactos_boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 29%;
+    height: 4rem;
+    border-radius: 10px; 
+}
+.contactos_boton:hover {
+    background-color: #a83535;
+}
+#pin {
+    height: 1.5rem;
+    width: 1rem;
+    background-color: transparent;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#contactos_boton_boton {
+    padding-top: 6%;
+    border: 0;
+    background-color: transparent;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+#contactos_boton_boton:hover {
+    color: white;
+}
+
+@media(max-width: 999px) {
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 14rem;
+    }
+    #logo {
+        position: relative;
+    }
+    .centro {
+        padding-bottom: 1%;
+    }
+    .contactos {
+        line-height: 1rem;
+        align-items: center;
+    }
+    #pin {
+        padding-top: 1rem;
+    }
+}
